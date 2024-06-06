@@ -406,7 +406,7 @@ x = setInterval(function() {
   function anim() {
     window.requestAnimationFrame(anim);
 
-    ctx.fillStyle = '#fff';
+    ctx.fillStyle = '#000';
     ctx.fillRect(0, 0, w, h);
 
     ctx.translate(hw, hh);
